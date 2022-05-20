@@ -1,4 +1,4 @@
-## On Elimination Strategies for Bandit Fixed-Confidence Identification
+# Elimination Strategies for Bandit Identification
 
 Code for the paper "On Elimination Strategies for Bandit Fixed-Confidence Identification" by Andrea Tirinzoni and Remy Degenne.
 
