@@ -1,0 +1,8 @@
+*.pdf
+*.dat
+experiments/*.pdf
+experiments/*.dat
+experiments/results/
+experiments/results/
+
+.DS_Store
