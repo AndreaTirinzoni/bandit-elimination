@@ -7,6 +7,11 @@ The code is written in Julia. It is an extension of public code from existing pa
 Please make sure that you have installed a version of Julia later or equal to 1.6.4.
 To install the required packages, simply run one of the experiment scripts by typing "julia experiments/script_name.jl" in a terminal. The script will likely return an error of missing package. Then launch "julia" in a terminal and type "import Pkg; Pkg.add("PACKAGE NAME")" to install it. Repeat this procedure until all required packages are installed.
  
+PACKAGES
+- JLD2
+- StatsPlots
+- LaTeXStrings
+
 2. REPRODUCING OUR EXPERIMENTS
 
 Reproducing our experiments is extremely easy. First create a sub-folder named "results" in "experiments". There is one script for each of them in the "experiments" folder which simply needs to be executed. The script will generate some .dat files with the results in the "results" sub-folder. Then, you can run the corresponding plot script in the "visualization" folder to visualize the results as in our paper. The scripts are:

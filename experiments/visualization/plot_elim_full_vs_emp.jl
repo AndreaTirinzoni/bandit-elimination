@@ -28,4 +28,5 @@ default(legendfontsize=16)
 # plot!(xticks=[0,1e4,3e4,5e4])
 xlabel!(L"\texttt{Time\ step}")
 ylabel!(L"\texttt{Number\ of\ active\ arms}")
+isdir("experiments/results") || mkdir("experiments/results")
 savefig("experiments/results/$(name).pdf");

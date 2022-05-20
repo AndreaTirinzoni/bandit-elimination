@@ -71,4 +71,5 @@ seed = 123;
 dump_stats(pep, θ, δ, β, stopping_rules, sampling_rules, elim_rules, data, repeats);
 
 # save
+isdir("experiments/results") || mkdir("experiments/results")
 @save isempty(ARGS) ? "experiments/results/rand_uns_$(typeof(pep))_K$(K).dat" : ARGS[1] θ pep stopping_rules sampling_rules elim_rules data δ β repeats seed

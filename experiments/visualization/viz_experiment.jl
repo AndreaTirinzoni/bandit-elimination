@@ -18,6 +18,7 @@ dump_stats(pep, θ, δ, β, stopping_rules, sampling_rules, elim_rules, data, re
 
 plot(boxes(pep, θ, δ, β, stopping_rules, sampling_rules, elim_rules, data, "samples"));
 ylabel!(L"\texttt{Sample\ complexity}")
+isdir("experiments/results") || mkdir("experiments/results")
 savefig("$(name)_samples.pdf");
 
 plot(boxes(pep, θ, δ, β, stopping_rules, sampling_rules, elim_rules, data, "time-iter"));

@@ -78,4 +78,5 @@ default(legendfontsize=16)
 plot!(yticks=[1.00, 1.03, 1.06, 1.09, 1.12])
 xlabel!(L"$\log(1/\delta)$")
 ylabel!(L"\texttt{Ratio\ of\ stopping\ times}")
+isdir("experiments/results") || mkdir("experiments/results")
 savefig("experiments/results/$(name)_delta.pdf");
