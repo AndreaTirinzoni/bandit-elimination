@@ -11,6 +11,10 @@ PACKAGES
 - JLD2
 - StatsPlots
 - LaTeXStrings
+- IterTools
+- Distributions
+- JuMP
+- Tulip
 
 2. REPRODUCING OUR EXPERIMENTS
 

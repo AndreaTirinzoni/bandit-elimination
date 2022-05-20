@@ -34,7 +34,8 @@ function is_complete_square(n)
 end
 
 function solveZeroSumGame(M_payoff, K, n_row)
-    m = Model(with_optimizer(Tulip.Optimizer));
+    # Note: our original code used with_optimizer() instead of optimizer_with_attributes(), but it seems that with_optimizer() is no longer available in later versions of the JuMP package
+    m = Model(optimizer_with_attributes(Tulip.Optimizer));
     @variable(m, x[1:K] >= 0)
     @variable(m, w)
     for j in 1:n_row
