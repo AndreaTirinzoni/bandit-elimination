@@ -21,6 +21,22 @@ Tulip
 ```
 To install them, run "julia" in a terminal and type "import Pkg; Pkg.add("PACKAGE NAME")".
 
+## Code structure
+
+The code is organized in the following files:
+
+- [peps.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/peps.jl): it implements the three pure exploration problems we consider (BAI, Top-m, and OSI)
+- [stopping_rules.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/stopping_rules.jl): it implements the *LLR* and *elimination* stopping rules
+- [elimination_rules.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/elimination_rules.jl): it implements *selective* and *full* elimination for the different pure exploration problems as described in Appendix B
+- [sampling_rules.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/sampling_rules.jl): it implements the sampling rules for all algorithms
+- [envelope.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/envelope.jl): utils for FWS (extended from the [code](https://github.com/rctzeng/NeurIPS2021-Fast-Pure-Exploration-via-Frank-Wolfe) of Wang et al.)
+- [regret.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/regret.jl): no-regret learners for LinGame
+- [runit.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/runit.jl): functions to run an experiment
+- [thresholds.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/thresholds.jl): different thresholds for stopping and/or sampling rules
+- [tracking.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/tracking.jl): tracking rules for LinGame, TaS, and FWS
+- [experiment_helpers.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/experiment_helpers.jl): some functions to plot and visualize results
+- [utils.jl](https://github.com/AndreaTirinzoni/bandit-elimination/blob/main/utils.jl): other general utilities
+
 ## Reproducing our experiments
 
 There is one script for each experiment in the "experiments" folder which simply needs to be executed. The script will generate some .dat files with the results in the "results" sub-folder. Then, you can run the corresponding plot script in the "visualization" folder to visualize the results as in our paper. The scripts are:
