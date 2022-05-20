@@ -73,24 +73,14 @@ We also include a general visualization script [viz_experiment.jl](https://githu
 
 ## References
 
-[1] Degenne, R., Ménard, P., Shang, X., & Valko, M. (2020, November). Gamification of pure exploration for linear bandits. In International Conference on Machine Learning (pp. 2432-2442). PMLR.
-
-[2] Wang, P. A., Tzeng, R. C., & Proutiere, A. (2021). Fast Pure Exploration via Frank-Wolfe. Advances in Neural Information Processing Systems, 34.
-
-[3] Fiez, T., Jain, L., Jamieson, K. G., & Ratliff, L. (2019). Sequential experimental design for transductive linear bandits. Advances in neural information processing systems, 32.
-
-[4] Jedra, Y., & Proutiere, A. (2020). Optimal best-arm identification in linear bandits. Advances in Neural Information Processing Systems, 33, 10007-10017.
-
-[5] Soare, M., Lazaric, A., & Munos, R. (2014). Best-arm identification in linear bandits. Advances in Neural Information Processing Systems, 27.
-
-[6] Réda, C., Kaufmann, E., & Delahaye-Duriez, A. (2021, March). Top-m identification for linear bandits. In International Conference on Artificial Intelligence and Statistics (pp. 1108-1116). PMLR.
-
-[7] Réda, C., Tirinzoni, A., & Degenne, R. (2021). Dealing With Misspecification In Fixed-Confidence Linear Top-m Identification. Advances in Neural Information Processing Systems, 34.
-
-[8] Degenne, R., Koolen, W. M., & Ménard, P. (2019). Non-asymptotic pure exploration by solving games. Advances in Neural Information Processing Systems, 32.
-
-[9] Kalyanakrishnan, S., Tewari, A., Auer, P., & Stone, P. (2012, June). PAC subset selection in stochastic multi-armed bandits. In ICML (Vol. 12, pp. 655-662).
-
-[10] Gabillon, V., Ghavamzadeh, M., & Lazaric, A. (2012). Best arm identification: A unified approach to fixed budget and fixed confidence. Advances in Neural Information Processing Systems, 25.
-
-[11] Kaufmann, E., & Kalyanakrishnan, S. (2013, June). Information complexity in bandit subset selection. In Conference on Learning Theory (pp. 228-251). PMLR.
+[1] Degenne, R., Ménard, P., Shang, X., & Valko, M. (2020, November). _Gamification of pure exploration for linear bandits_. In International Conference on Machine Learning (pp. 2432-2442). PMLR.   
+[2] Wang, P. A., Tzeng, R. C., & Proutiere, A. (2021). _Fast Pure Exploration via Frank-Wolfe_. Advances in Neural Information Processing Systems, 34.   
+[3] Fiez, T., Jain, L., Jamieson, K. G., & Ratliff, L. (2019). _Sequential experimental design for transductive linear bandits_. Advances in neural information processing systems, 32.   
+[4] Jedra, Y., & Proutiere, A. (2020). _Optimal best-arm identification in linear bandits_. Advances in Neural Information Processing Systems, 33, 10007-10017.   
+[5] Soare, M., Lazaric, A., & Munos, R. (2014). _Best-arm identification in linear bandits_. Advances in Neural Information Processing Systems, 27.   
+[6] Réda, C., Kaufmann, E., & Delahaye-Duriez, A. (2021, March). _Top-m identification for linear bandits_. In International Conference on Artificial Intelligence and Statistics (pp. 1108-1116). PMLR.    
+[7] Réda, C., Tirinzoni, A., & Degenne, R. (2021). _Dealing With Misspecification In Fixed-Confidence Linear Top-m Identification_. Advances in Neural Information Processing Systems, 34.    
+[8] Degenne, R., Koolen, W. M., & Ménard, P. (2019). _Non-asymptotic pure exploration by solving games_. Advances in Neural Information Processing Systems, 32.    
+[9] Kalyanakrishnan, S., Tewari, A., Auer, P., & Stone, P. (2012, June). _PAC subset selection in stochastic multi-armed bandits_. In ICML (Vol. 12, pp. 655-662).    
+[10] Gabillon, V., Ghavamzadeh, M., & Lazaric, A. (2012). _Best arm identification: A unified approach to fixed budget and fixed confidence_. Advances in Neural Information Processing Systems, 25.    
+[11] Kaufmann, E., & Kalyanakrishnan, S. (2013, June). _Information complexity in bandit subset selection_. In Conference on Learning Theory (pp. 228-251). PMLR.
