@@ -1,6 +1,6 @@
 # Elimination Strategies for Bandit Identification
 
-Code for the paper "On Elimination Strategies for Bandit Fixed-Confidence Identification" by Andrea Tirinzoni and Remy Degenne.
+Code for the paper "On Elimination Strategies for Bandit Fixed-Confidence Identification" by Andrea Tirinzoni and Remy Degenne. A preprint is available [here](https://arxiv.org/abs/2205.10936).
 
 The code is written in Julia. It is an extension of public code from existing papers: 
  - [LinGame](https://github.com/xuedong/LinBAI.jl) by Degenne et al., 2020 [1]
